@@ -1,0 +1,301 @@
+html {
+  background: #ccc url(/assets/images/bg-page-gradient.png) left top repeat-x;
+  height: 100%;
+}
+
+body {
+  background-color: transparent;
+  padding-bottom: 30px;
+}
+
+header {
+  background-color: #f5f5f5;
+}
+
+
+@media (min-width: 768px){.navbar-brand{padding-bottom:8px;padding-top:8px}}.nav{font-size:16px}
+@media (min-width: 768px){.nav>li>a{font-size:85% !important;line-height:1em;padding:11px 15px 9px}}
+.nav .icon-inline{padding-top:9px}
+.nav .icon-inline:before{background-image:url(images/head-icons-sprite.svg);background-position:left bottom;background-repeat:no-repeat;content:"";display:inline-block;height:16px;margin-right:6px;margin-bottom:-4px;width:16px}
+.nav .icon-inline.help:before{background-position:-16px center}
+.nav .icon-inline.user:before{background-position:left center}
+.nav .icon-inline.utilities:before{background-position:-32px center}
+@media (min-width: 768px){.nav .dropdown:hover .dropdown-menu{display:block}}
+.nav .dropdown-menu{border-radius:2px;border-top:none;overflow:auto}
+.nav .dropdown-menu a{color:#21AF62;padding:5px 10px}
+@media (min-width: 768px){.nav .dropdown-menu a{color:#54585a !important}}
+
+
+main {
+  margin: 0;
+  text-align: center;
+}
+
+.content {
+  padding: 0 20px;
+}
+
+.apps-link {
+  border: 1px solid #ccc;
+  display: inline-block;
+  line-height: 0;
+  margin: 0 -20px 40px;
+}
+
+.apps-link:hover {
+  border-bottom: 1px solid #ccc;
+}
+
+.apps-link img {
+  max-width: 1280px;
+  width: 100%;
+}
+
+.apps {
+  margin-bottom: 20px;
+}
+
+.apps .app {
+  background-color: #f7f6f5;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #666;
+  display: inline-block;
+  height: 120px;
+  padding: 10px;
+  vertical-align: top;
+  width: 120px;
+}
+
+.apps .app .icon {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 48px;
+  margin: 0 auto 10px;
+  width: 48px;
+}
+
+.apps .app .label {
+  line-height: 1.2em;
+}
+
+.apps .app .info {
+  color: #999;
+  display: none;
+  font-size: 15px;
+  line-height: 1.2em;
+}
+
+.apps .app#analytics .icon {
+  background-image: url(/assets/images/icon-analytics.png);
+}
+
+.apps .app#calendar .icon {
+  background-image: url(/assets/images/icon-google-calendar.png);
+}
+
+.apps .app#clouddrive .icon {
+  background-image: url(/assets/images/icon-clouddrive.png);
+}
+
+.apps .app#docs .icon {
+  background-image: url(/assets/images/icon-google-docs.png);
+}
+
+.apps .app#drive .icon {
+  background-image: url(/assets/images/icon-google-drive.png);
+}
+
+.apps .app#email .icon {
+  background-image: url(/assets/images/icon-email.png);
+}
+
+.apps .app#finance .icon {
+  background-image: url(/assets/images/icon-finance.png);
+}
+
+.apps .app#legacy .icon {
+  background-image: url(/assets/images/icon-legacy.png);
+}
+
+.apps .app#request .icon {
+  background-image: url(/assets/images/icon-request.png);
+}
+
+.apps .app#reservation .icon {
+  background-image: url(/assets/images/icon-calendar.png);
+}
+
+.apps .app#sheets .icon {
+  background-image: url(/assets/images/icon-google-sheets.png);
+}
+
+.apps .app#sites .icon {
+  background-image: url(/assets/images/icon-google-sites.png);
+}
+
+.apps .app#slides .icon {
+  background-image: url(/assets/images/icon-google-slides.png);
+}
+
+.apps .app#smartsheet .icon {
+  background-image: url(/assets/images/icon-google-smartsheet.png);
+}
+
+.apps .app#status .icon {
+  background-image: url(/assets/images/icon-status.png);
+}
+
+.apps .app#store .icon {
+  background-image: url(/assets/images/icon-store.png);
+}
+
+.apps .app#wikis .icon {
+  background-image: url(/assets/images/icon-wikis.png);
+}
+
+.apps .app:hover {
+  background-color: #fff;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+footer .byline {
+  background-color: #f7f6f5;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  color: #999;
+  font-size: 13px;
+  padding: 2px 20px;
+  text-align: right;
+}
+
+footer .byline a {
+  color: #666;
+}
+
+footer .byline a:hover {
+  border-bottom: none;
+}
+
+
+header .menu .has-child .menu {
+  background-color: #ebe9e9;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  display: none;
+  right: 0;
+  width: 162px;
+}
+
+header .menu .has-child .menu a {
+  color: #666 !important;
+}
+
+header .menu .has-child .menu a:hover {
+  background-color: #f7f6f5 !important;
+}
+
+header .menu .icon {
+  background-image: url(/assets/images/headIconsSprite.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: -3px;
+  width: 16px;
+}
+
+header .menu #help .icon {
+  background-position: -16px center;
+}
+
+header .menu #profile .icon {
+  background-position: left center;
+}
+
+header .menu #utilities .icon {
+  background-position: -32px center;
+}
+
+header .menu .menu.helping .icon, header .menu .menu.profile .icon, header .menu .menu.utilities .icon {
+  background-image: url(/assets/images/head-icons-menu-sprite.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+header .menu .menu.helping li, header .menu .menu.profile li, header .menu .menu.utilities li {
+  border-top: 1px solid #f2f2f2;
+}
+
+header .menu .menu.helping li:first-child, header .menu .menu.profile li:first-child, header .menu .menu.utilities li:first-child {
+  border-top: none;
+}
+
+header .menu .menu.helping #report-bug .icon {
+  background-position: -48px center;
+}
+
+header .menu .menu.helping #feature-req .icon {
+  background-position: -32px center;
+}
+
+header .menu .menu.helping #manuals .icon {
+  background-position: -80px center;
+}
+
+header .menu .menu.helping #status .icon {
+  background-position: -64px center;
+}
+
+header .menu .menu.profile #account .icon {
+  background-position: 0 center;
+}
+
+header .menu .menu.profile #log-out .icon {
+  background-position: -16px center;
+}
+
+header .menu .menu.utilities #comm100 .icon {
+  background-position: -112px center;
+}
+
+header .menu .menu.utilities #logmein .icon {
+  background-position: -128px center;
+}
+
+header .menu .menu.utilities #pingdom .icon {
+  background-position: -144px center;
+}
+
+header .menu .menu.utilities #analytics .icon {
+  background-position: -96px center;
+}
+
+header  li a {
+  color:#C8102E !important;
+  font-size: 16px!important;
+}
+
+header .menu li a:hover {
+  background-color: #ba0f2b !important;
+}
+
+header .menu .live-chat {
+  background-color: #00b388;
+  border-radius: 2px;
+  color: #fff !important;
+}
+
+header .menu .live-chat:hover {
+  background-color: #fff !important;
+  color: #00b388 !important;
+}
+/* CSS Document */
+

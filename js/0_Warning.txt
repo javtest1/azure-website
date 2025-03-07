@@ -1,0 +1,8 @@
+
+BLOCKED FILE ALERT
+
+A file has been blocked due to the 'File Blocking Rule' rule.
+Context: 'default.min.js'
+Disallowed due to filename
+Ticket Number: '2154-5c6c-6931-0001'
+  For further information, contact your system administrator.  Copyright 1999-2014 McAfee, Inc. All Rights Reserved. http://www.mcafee.com
